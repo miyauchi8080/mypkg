@@ -18,6 +18,6 @@ talkerからメッセージを送りlistenerで受け取る。
 
 ~~~
 $ cd ros2_ws/src/
-$ git clone 
+$ git clone git@github.com:miyauchi8080/mypkg.git
 $ cd mypkg/
 ~~~
