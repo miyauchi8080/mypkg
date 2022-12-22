@@ -8,20 +8,9 @@ talker、listenerというノードが含まれたパッケージ。
 
 talkerからメッセージを送りlistenerで受け取る。
 
-## 必要な環境
-
+## 動作確認
 * ros2
-
-## 導入法
-
-* ros2_ws/src/の下にこのレポジトリをコピーする
-
-~~~
-$ cd ros2_ws/src/
-$ git clone git@github.com:miyauchi8080/mypkg.git
-$ cd mypkg/
-~~~
-
+* ubuntu-22.04
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
