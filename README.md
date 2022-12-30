@@ -20,31 +20,33 @@ talker、listenerというノードが含まれたパッケージ。
 
 トピック/countupからのメッセージを表示
 ## 使用法
-
+### パッケージのビルド
 ~~~
 $ cd ~/ros2_ws/
 $ colcon build
 $ source ~/ros2_ws/install/setup.bash
 $ source ~/ros2_ws/install/local_setup.bash
 $ source ~/.bashrc
+~~~
+### 動作
+
+* ２つの端末にそれぞれ
+~~~
 $ ros2 run mypkg talker
 ~~~
-もう一つの端末で
 ~~~
 $ ros2 run mypkg listener
 ~~~
-と入力して下記のように表示される。
-
+と入力することでlistener側に
 ~~~
-[listener-2] [INFO] [1672379361.260214520] [listener]: Listen: 0
-[listener-2] [INFO] [1672379361.744006958] [listener]: Listen: 1
-[listener-2] [INFO] [1672379362.244047634] [listener]: Listen: 2
-[listener-2] [INFO] [1672379362.743929742] [listener]: Listen: 3
-[listener-2] [INFO] [1672379363.242907580] [listener]: Listen: 4
-[listener-2] [INFO] [1672379363.743900063] [listener]: Listen: 5
+[INFO] [1672380949.514107954] [listener]: Listen: 0
+[INFO] [1672380950.006545193] [listener]: Listen: 1
+[INFO] [1672380950.506559977] [listener]: Listen: 2
+[INFO] [1672380951.005573418] [listener]: Listen: 3
+[INFO] [1672380951.506397551] [listener]: Listen: 4
 ~~~
-
-
+と表示される。
+ctrl+cで終了。
 ## 動作確認
 * ros2
 * ubuntu-22.04
