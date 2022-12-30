@@ -45,10 +45,17 @@ $ ros2 run mypkg listener
 [INFO] [1672380951.005573418] [listener]: Listen: 3
 [INFO] [1672380951.506397551] [listener]: Listen: 4
 ~~~
-と表示される。
+のように表示される。
 ctrl+cで終了。
+
+または一つの端末に
+~~~
+$ ros2 launch mypkg launch talk_listen.launch.py
+~~~
+と入力することでも動作する。
+
 ## 動作確認
-* ros2
+* ROS2
 * ubuntu-22.04
 
 ## ライセンス
