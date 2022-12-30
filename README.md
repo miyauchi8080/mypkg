@@ -23,15 +23,10 @@ talker、listenerというノードが含まれたパッケージ。
 
 ~~~
 $ cd ~/ros2_ws/
-
 $ colcon build
-
 $ source ~/ros2_ws/install/setup.bash
-
 $ source ~/ros2_ws/install/local_setup.bash
-
 $ source ~/.bashrc
-
 $ ros2 run mypkg talker
 ~~~
 もう一つの端末で
@@ -42,15 +37,10 @@ $ ros2 run mypkg listener
 
 ~~~
 [listener-2] [INFO] [1672379361.260214520] [listener]: Listen: 0
-
 [listener-2] [INFO] [1672379361.744006958] [listener]: Listen: 1
-
 [listener-2] [INFO] [1672379362.244047634] [listener]: Listen: 2
-
 [listener-2] [INFO] [1672379362.743929742] [listener]: Listen: 3
-
 [listener-2] [INFO] [1672379363.242907580] [listener]: Listen: 4
-
 [listener-2] [INFO] [1672379363.743900063] [listener]: Listen: 5
 ~~~
 
